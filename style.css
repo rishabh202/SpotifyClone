@@ -75,3 +75,6 @@ body{
 .SpotifyPlaylists{
     padding: 16px;
 }
+.buttons button{
+    cursor: pointer;
+}
