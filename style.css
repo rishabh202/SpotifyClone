@@ -77,12 +77,33 @@ body {
   cursor: pointer;
 }
 
+.card *{
+    padding-top: 3px;
+}
 .card {
-  border: 2px solid white;
-  width: 200px;
+  /* border: 2px solid white; */
+  width: 180px;
   margin: 10px 0px 2px 0px;
+  padding: 5px;
+  border-radius: 7px;
+
 }
 .card img {
   width: 100%;
   object-fit: contain;
+}
+
+.card p{
+    font-size: 11.5px;
+    color: rgb(206, 206, 206);
+    padding-top: 3px;
+    
+}
+
+.cardContainer{
+    /* background-color: #827651; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 15px;
 }
