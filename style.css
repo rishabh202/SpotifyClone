@@ -1,80 +1,88 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,300;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,300;1,400&display=swap");
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
-body{
-    background-color: black;
-    color: white;
+body {
+  background-color: black;
+  color: white;
 }
 
-.left{
-    width: 25vw;
-    margin: 7px;
+.left {
+  width: 25vw;
+  margin: 7px;
 }
 
-.right{
-    width: 75vw;
-     margin: 11px 0px;
+.right {
+  width: 75vw;
+  margin: 11px 0px;
 }
 
-.home ul li{
-    width: 15px;
-    gap: 9px;
-    padding-top: 15px;
-    font-weight: bold;
+.home ul li {
+  width: 15px;
+  gap: 9px;
+  padding-top: 15px;
+  font-weight: bold;
 }
 
-.heading{
-
-    width: 100%;
-    display: flex;
-    gap: 9px;
-    font-size: 13px;
-    font-weight: bold;
+.heading {
+  width: 100%;
+  display: flex;
+  gap: 9px;
+  font-size: 13px;
+  font-weight: bold;
 }
 
-.heading img{
-    width: 20px;
+.heading img {
+  width: 20px;
 }
 
-.library{
-    min-height: 77vh;
-    position: relative;
-  
+.library {
+  min-height: 77vh;
+  position: relative;
 }
 
-.footer{
-    display: flex;
-    font-size: 8px;
-    gap: 9px;
-    color: grey;
-    position: absolute;
-    bottom: 0;
+.footer {
+  display: flex;
+  font-size: 8px;
+  gap: 9px;
+  color: grey;
+  position: absolute;
+  bottom: 0;
 }
 
-.footer a{
-    color: grey;
+.footer a {
+  color: grey;
 }
 
-.nav svg{
-    width: 17px;
+.nav svg {
+  width: 17px;
 }
 
-.header{
-    display: flex;
-    justify-content: space-between;
-    padding: 15px;
-    background-color: #2b2a2a;
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #2b2a2a;
 }
 
-.SpotifyPlaylists{
-    padding: 16px;
+.SpotifyPlaylists {
+  padding: 16px;
 }
-.buttons button{
-    cursor: pointer;
+.buttons button {
+  cursor: pointer;
+}
+
+.card {
+  border: 2px solid white;
+  width: 200px;
+  margin: 10px 0px 2px 0px;
+}
+.card img {
+  width: 100%;
+  object-fit: contain;
 }
